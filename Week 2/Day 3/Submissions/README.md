@@ -22,3 +22,9 @@ It is possible to use flags with `main.py` file:
 * `--results_path` to csv file
 * `--parameters` path to `JSON` file
 
+|model|R^2|MSE|Time(s)|
+|---|---|---|---|
+|Random Forest SKleran GS| 0.71  | 245.1  |  35.81 |
+| Random Forest DASK-ml GS  |0.71   |  244.9 | 43.82  |
+|  DASK-ml XGBoost |  NaN | 524.8  | 28.6  |
+|  XGBoost GridSearchCV |  0.97 |  23.4 | 694.12  |
